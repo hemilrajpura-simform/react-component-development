@@ -1,0 +1,281 @@
+:root {
+  /* Dark Colors */
+  --dark-color-100: #1c1c1c;
+  --dark-color-80: #000000cc;
+  --dark-color-40: #00000066;
+  --dark-color-20: #00000033;
+  --dark-color-10: #0000001a;
+  --dark-color-05: #0000000d;
+  /* Light Colors */
+  --light-color-100: #ffffff;
+  --light-color-80: #ffffffcc;
+  --light-color-40: #ffffff66;
+  --light-color-20: #ffffff33;
+  --light-color-10: #ffffff1a;
+  --light-color-05: #ffffff0d;
+}
+
+#Dashboard {
+  background-color: var(--dark-color-100);
+  color: var(--light-color-100);
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+}
+.DashBoard-RightMenu {
+  width: 20%;
+  border-left: 1px solid var(--light-color-10);
+}
+.DashBoard-Main {
+  width: 66%;
+}
+.DashBoard-Section {
+  width: 100%;
+  display: flex;
+  height: 100%;
+}
+.DashBoard-LeftMenu {
+  width: 14%;
+  height: 100%;
+  border-right: 1px solid var(--light-color-10);
+}
+
+.LeftMenu-Labels {
+  font-family: Inter !important;
+  font-size: 14px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 20px !important;
+  display: flex;
+  width: 62%;
+  justify-content: space-between;
+  color: var(--light-color-40);
+}
+.bulletsList-item li {
+  color: #ffffff33 !important;
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 400 !important;
+}
+.Dashboards-Section p {
+  font-family: Inter;
+  font-size: 14px !important;
+  font-style: normal;
+  color: var(--light-color-40);
+  font-weight: 400 !important;
+  line-height: 20px; /* 142.857% */
+}
+/* expandable menu */
+.expadndableMenu-Section p {
+  color: var(--light-color-100);
+  display: flex;
+  align-items: center;
+}
+.expadndableMenu-Section svg {
+  color: var(--light-color-20);
+  font-size: 16px;
+  margin: 0 4px;
+}
+.expadndableMenu-Section-Icons svg {
+  color: var(--light-color-100);
+  font-size: 20px;
+}
+.css-1fjvggn-MuiPaper-root-MuiAccordion-root {
+  background-color: transparent !important;
+}
+.css-uvvswg-MuiButtonBase-root-MuiAccordionSummary-root {
+  padding: 0 !important;
+  background-color: transparent !important;
+}
+.css-1fjvggn-MuiPaper-root-MuiAccordion-root {
+  border: none !important;
+}
+.css-1cxoobs-MuiButtonBase-root-MuiAccordionSummary-root {
+  padding: 0 !important;
+  min-height: 35px !important;
+}
+.LeftMenu-userDetails {
+  display: flex;
+  width: 43%;
+  justify-content: space-between;
+  align-items: center;
+}
+.LeftMenu-userDetails p {
+  font-family: Inter;
+  font-size: 14px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 20px !important;
+}
+.Dashboard-Section {
+  display: flex;
+}
+.breadcrumbsSection {
+  display: flex;
+  width: 100%;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--light-color-10);
+}
+.breadcrumb-left {
+  align-items: center;
+  color: white;
+  width: 50%;
+  display: flex;
+}
+.breadcrumb-item-container {
+  align-items: center;
+  color: white;
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.breadcrumb-left a {
+  color: white;
+}
+.breadcrumb-left li {
+  color: white;
+}
+.SearchInputField input {
+  padding: 5px;
+  color: white;
+  border-color: white;
+}
+.MyProject-section {
+  padding: 28px;
+  height: 100%;
+}
+.MyProject-Container {
+  height: 100%;
+}
+
+.MyProject-section p {
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+.Projects-Items {
+  margin-top: 16px;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.projectItem {
+  height: 25%;
+  width: 32%;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.projectItem p {
+  color: rgba(255, 255, 255, 0.4);
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  margin: 4px 0;
+}
+.projectItem-container {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.projectItem-title {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.projectItem img {
+  width: 42px;
+}
+.projectItem-user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 12px 0;
+}
+.projectItem-status {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background: #a1e3cb;
+  margin: 0 5px;
+}
+.projectItem-right {
+  display: flex;
+  align-items: center;
+}
+
+.projectItem-right p {
+  color: #4aa785;
+}
+.projectItem-progress {
+  width: 100%;
+  background-color: #a1e3cb;
+  height: 4px;
+  border-radius: 16px;
+  margin: 10px 0;
+}
+#EmptyProjectItem {
+  background: #e3f5ff;
+  height: 112px;
+}
+.emptyProject-icon {
+  width: 100%;
+  justify-content: right;
+  display: flex;
+}
+#EmptyProjectItem svg {
+  font-size: 24px;
+  color: #1c1c1c;
+}
+
+.DashBoardRightMenu-container {
+  padding: 22px;
+}
+.DashBoardRightMenu-sections p {
+  margin-bottom: 16px;
+  color: var(--white-100, #fff);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 142.857% */
+}
+.notification-icon {
+  height: 24px;
+  width: 24px;
+  background-color: #e3f5ff;
+  border-radius: 8px;
+}
+.notification-title {
+}
+.dashboard-notifications {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin: 20px 0;
+}
+.DashBoardRightMenu-Item {
+  display: flex;
+  align-items: center;
+}
+.notification-icon svg {
+  color: black;
+  font-size: 16px;
+}
+.notification-icon {
+  display: flex;
+  margin-right: 10px;
+  align-items: center;
+  justify-content: center;
+}

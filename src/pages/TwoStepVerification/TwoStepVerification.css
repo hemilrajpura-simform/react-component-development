@@ -1,0 +1,245 @@
+.DarkSignInSection {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-color: #1c1c1c;
+  background-size: cover;
+}
+.SignIn-left {
+  display: flex;
+  align-items: center;
+}
+.SignIn-right {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.SignInForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+.SignInForm-TitleSection {
+  margin-bottom: 0;
+  text-align: center;
+}
+.SignInForm-section {
+  padding: 48px;
+  background-color: rgba(255, 255, 255, 0.05);
+  color: white;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.SignInForm-title {
+  font-weight: 600 !important;
+  font-size: 24px !important;
+  color: white !important;
+  margin-bottom: 5px !important;
+}
+.SignInForm-title2 {
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  color: white !important;
+  opacity: 0.4;
+}
+.SignInForm-title3 {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 155.556% */
+  padding: 28px 0;
+}
+.SignInForm-title4 {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 142.857% */
+  padding-bottom: 12px;
+}
+.SignInForm-method {
+  margin-bottom: 28px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.SignInForm-methodItem {
+  background-color: rgba(255, 255, 255, 0.05);
+  min-width: 186px;
+  display: flex;
+  align-items: center;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  color: white !important;
+  line-height: 20px;
+  padding: 1.5px 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+.SignInForm-methodItem p {
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  color: white !important;
+  line-height: 20px;
+  padding: 4px 8px;
+}
+.SignInForm-orEmail p {
+  color: white !important;
+  font-weight: 400 !important;
+  font-size: 12px !important;
+  margin-bottom: 28px;
+}
+.SignInForm-Input {
+  width: 100%;
+}
+.SignInForm-Input input {
+  width: 100%;
+  border: 1px #1c1c1c46 solid !important;
+  color: white !important;
+  background: rgba(255, 255, 255, 0.05);
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 20px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  margin: 5px 0;
+}
+.SignInForm-Submit {
+  margin-top: 15px;
+  width: 100%;
+}
+.SignInForm-Submit input {
+  width: 100%;
+  background-color: #c6c7f8;
+  color: #1c1c1c !important;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  line-height: 20px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+.SignInForm-notMember p {
+  color: white !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  margin-top: 16px;
+}
+
+.SignInForm-signUpButton {
+  color: #95a4fc !important;
+  cursor: pointer;
+}
+.SignInForm-forgotPassword {
+  width: 100%;
+  margin-top: 8px;
+}
+.SignInForm-forgotPassword p {
+  color: #95a4fc !important;
+  cursor: pointer;
+  text-align: right;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+}
+.SignInForm-Inputs {
+  width: 100%;
+  margin-bottom: 28px;
+}
+.SignInMail-line {
+  width: 100%;
+  margin-bottom: -10px;
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+.HeaderNavBar {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 20px;
+}
+.OTPInputFields input {
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.05);
+  padding: 8px;
+  width: 33px;
+  font-size: 24px;
+  border-radius: 8px;
+}
+.NavBarItem img {
+  margin: 4px;
+}
+.NavBarItem p {
+  margin: 0 8px;
+}
+.SignInBottom p {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  /* 12 Regular */
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 150% */
+}
+.NavBarItem {
+  display: flex;
+  align-items: center;
+}
+.OTP-Icon svg {
+  font-size: 70px;
+}
+.css-1ecgcg6-MuiContainer-root {
+  height: auto;
+}
+.PagesList-items p {
+  text-align: left;
+}
+
+.PagesListHeader {
+  font-weight: 600 !important;
+  font-size: 24px !important;
+  color: white !important;
+  padding: 10px !important;
+}
+.PagesListHeader2 {
+  font-weight: 400 !important;
+  text-align: center;
+  font-size: 14px !important;
+  color: white !important;
+  opacity: 0.4;
+  padding-bottom: 25px;
+}
+@media only screen and (max-width: 990px) {
+  .SignInMain-Section {
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: space-evenly;
+  }
+  .SignInMain {
+    width: 100% !important;
+    height: auto !important;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+}
+@media only screen and (max-width: 660px) {
+  .SignInForm-methodItem {
+    width: 100%;
+    margin: 4px;
+  }
+}

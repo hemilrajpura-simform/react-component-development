@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import SignIn from "./pages/SignIn/SignIn";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Dashboard from "./pages/Dashboard/Dashboard";
+import SignInDark from "./pages/SignInDark/SignInDark";
+import TwoStepVerification from "./pages/TwoStepVerification/TwoStepVerification";
+import PagesList from "./pages/PageList/PagesList";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Routes>
+          <Route path="/" element={<PagesList />} />
+          <Route path="/login" element={<SignIn />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/loginDark" element={<SignInDark />} />
+          <Route
+            path="/twoStepVerification"
+            element={<TwoStepVerification />}
+          />
+          <Route path="/*" element={<p>Page Not Found</p>} />
+        </Routes>
+      </Router>
     </div>
   );
 }
