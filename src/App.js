@@ -5,6 +5,7 @@ import Dashboard from "./pages/Dashboard/Dashboard";
 import SignInDark from "./pages/SignInDark/SignInDark";
 import TwoStepVerification from "./pages/TwoStepVerification/TwoStepVerification";
 import PagesList from "./pages/PageList/PagesList";
+import PageNotFound from "./pages/PageNotFound/PageNotFound";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/login" element={<SignIn />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/loginDark" element={<SignInDark />} />
+          <Route path="/*" element={<PageNotFound />} />
           <Route
             path="/twoStepVerification"
             element={<TwoStepVerification />}

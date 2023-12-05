@@ -40,10 +40,7 @@ const SignIn = () => {
               />
             </Box>
           </Box>
-          <Box
-            className={styles.SignInMain}
-            sx={{ width: "50%", height: "100%" }}
-          >
+          <Box className={styles.SignInMain} sx={{ width: "50%" }}>
             <Box className={styles.SignInright}>
               <Box className={styles.SignInFormsection}>
                 <Box className={styles.SignInForm}>
@@ -66,13 +63,14 @@ const SignIn = () => {
                     </Box>
                   </Box>
                   <Box className={styles.SignInMailsection}>
-                    <hr className={styles.SignInMailline} />
-                    <Box
-                      className={styles.SignInFormorEmail}
-                      sx={{ width: "100%", textAlign: "center" }}
-                    >
-                      <hr className={styles.SignInMailline} />
+                    <Box className={styles.SignInMailline}>
+                      <hr />
+                    </Box>
+                    <Box className={styles.SignInFormorEmail}>
                       <Typography> Or with Email</Typography>
+                    </Box>
+                    <Box className={styles.SignInMailline}>
+                      <hr />
                     </Box>
                   </Box>
                   <Box className={styles.SignInFormInputs}>

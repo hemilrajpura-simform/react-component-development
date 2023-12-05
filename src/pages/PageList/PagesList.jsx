@@ -55,6 +55,12 @@ const PagesList = () => {
                         Page 4: Two Step Verification
                       </Link>
                     </Typography>
+                    <Typography className="SignInForm-title4">
+                      <Link to={Math.random().toString()}>
+                        {" "}
+                        Page 5: 404 Page Not Found
+                      </Link>
+                    </Typography>
                   </Box>
                 </Box>
               </Box>

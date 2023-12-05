@@ -4,11 +4,11 @@
   background-color: #1c1c1c;
   background-size: cover;
 }
-.SignIn-left {
+.SignIn_left {
   display: flex;
   align-items: center;
 }
-.SignIn-right {
+.SignIn_right {
   height: 100%;
   width: 100%;
   display: flex;
@@ -23,12 +23,12 @@
   height: 100%;
   width: 100%;
 }
-.SignInForm-TitleSection {
-  margin-bottom: 27px;
+.SignInForm_TitleSection {
   text-align: center;
 }
-.SignInForm-section {
-  padding: 48px;
+.SignInForm_section {
+  padding: 107px 141px;
+  width: 59%;
   background-color: rgba(255, 255, 255, 0.05);
   color: white;
   border-radius: 16px;
@@ -37,26 +37,27 @@
   align-items: center;
   flex-direction: column;
 }
-.SignInForm-title {
+.SignInForm_title {
   font-weight: 600 !important;
   font-size: 24px !important;
   color: white !important;
-  margin-bottom: 5px !important;
 }
-.SignInForm-title2 {
+.SignInForm_title2 {
+  margin-top: 8px !important;
   font-weight: 400 !important;
   font-size: 14px !important;
   color: white !important;
   opacity: 0.4;
 }
-.SignInForm-method {
-  margin-bottom: 28px;
+.SignInForm_method {
+  margin: 28px 0;
   width: 100%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.SignInForm-methodItem {
+.SignInForm_methodItem {
+  cursor: pointer;
   background-color: rgba(255, 255, 255, 0.05);
   min-width: 186px;
   display: flex;
@@ -69,23 +70,23 @@
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 8px;
 }
-.SignInForm-methodItem p {
+.SignInForm_methodItem p {
   font-weight: 400 !important;
   font-size: 14px !important;
   color: white !important;
   line-height: 20px;
   padding: 4px 8px;
 }
-.SignInForm-orEmail p {
+.SignInForm_orEmail p {
   color: white !important;
   font-weight: 400 !important;
   font-size: 12px !important;
   margin-bottom: 28px;
 }
-.SignInForm-Input {
+.SignInForm_Input {
   width: 100%;
 }
-.SignInForm-Input input {
+.SignInForm_Input input {
   width: 100%;
   border: 1px #1c1c1c46 solid !important;
   color: white !important;
@@ -97,11 +98,11 @@
   border-radius: 8px;
   margin: 5px 0;
 }
-.SignInForm-Submit {
+.SignInForm_Submit {
   margin-top: 15px;
   width: 100%;
 }
-.SignInForm-Submit input {
+.SignInForm_Submit input {
   width: 100%;
   background-color: #c6c7f8;
   color: #1c1c1c !important;
@@ -111,34 +112,34 @@
   padding: 8px 16px;
   border-radius: 8px;
   margin-bottom: 16px;
+  border: none;
 }
-.SignInForm-notMember p {
+.SignInForm_notMember p {
   color: white !important;
   font-weight: 400 !important;
   font-size: 14px !important;
-  margin-top: 16px;
 }
 
-.SignInForm-signUpButton {
+.SignInForm_signUpButton {
   color: #95a4fc !important;
   cursor: pointer;
 }
-.SignInForm-forgotPassword {
+.SignInForm_forgotPassword {
   width: 100%;
   margin-top: 8px;
 }
-.SignInForm-forgotPassword p {
+.SignInForm_forgotPassword p {
   color: #95a4fc !important;
   cursor: pointer;
   text-align: right;
   font-weight: 400 !important;
   font-size: 14px !important;
 }
-.SignInForm-Inputs {
+.SignInForm_Inputs {
   width: 100%;
   margin-bottom: 28px;
 }
-.SignInMail-line {
+.SignInMail_line {
   width: 100%;
   margin-bottom: -10px;
   border-color: rgba(0, 0, 0, 0.1);
@@ -176,7 +177,7 @@
   height: auto;
 }
 @media only screen and (max-width: 990px) {
-  .SignInMain-Section {
+  .SignInMain_Section {
     flex-wrap: wrap;
     height: 100vh;
     justify-content: space-evenly;
@@ -190,7 +191,7 @@
   }
 }
 @media only screen and (max-width: 660px) {
-  .SignInForm-methodItem {
+  .SignInForm_methodItem {
     width: 100%;
     margin: 4px;
   }

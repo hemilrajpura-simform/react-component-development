@@ -1,0 +1,89 @@
+.DarkSignInSection {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-color: #1c1c1c;
+  background-size: cover;
+}
+.SignIn-left {
+  display: flex;
+  align-items: center;
+}
+.SignIn-right {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.SignInForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+.SignInForm-section {
+  padding: 48px;
+  background-color: rgba(255, 255, 255, 0.05);
+  color: white;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.SignInForm-title {
+  font-weight: 600 !important;
+  font-size: 24px !important;
+  color: white !important;
+  margin-bottom: 5px !important;
+}
+.SignInForm-title2 {
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  color: white !important;
+  opacity: 0.4;
+}
+
+.css-1ecgcg6-MuiContainer-root {
+  height: auto;
+}
+
+.PageNotFoundSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.PageNotFoundSection input {
+  display: inline-flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: var(--secondary-purple-b, #c6c7f8);
+  margin-top: 16px;
+  border: none;
+  color: #1c1c1c;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 990px) {
+  .SignInMain-Section {
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: space-evenly;
+  }
+  .SignInMain {
+    width: 100% !important;
+    height: auto !important;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+}
